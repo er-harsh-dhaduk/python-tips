@@ -1,0 +1,1 @@
+import jsonwith open("json_file.json") as stud:    student_list = json.load(stud)for student in student_list:    print("Student name is {} and having total marks {} with {} "          "status".format(student['student'], student['marks'], student[        'status']))

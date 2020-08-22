@@ -1,0 +1,1 @@
+import subprocessprint("Inside Python file.....");subprocess.call(["gcc", "my_c_file.c"])subprocess.call("./a.out");print("Task is done.")

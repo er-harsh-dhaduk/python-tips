@@ -1,0 +1,1 @@
+import xlrdstud_obj = xlrd.open_workbook("student.xlsx")stud_index = stud_obj.sheet_by_index(0)for student in range(stud_index.nrows):    print(stud_index.row(student)[0].value,' === ',stud_index.row(student)[        1].value)

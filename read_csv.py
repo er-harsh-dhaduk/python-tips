@@ -1,0 +1,1 @@
+import csvwith open("student_list.csv", "r") as stud:    students = csv.reader(stud)    for stud in students:        print(stud[0])

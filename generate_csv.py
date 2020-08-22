@@ -1,0 +1,1 @@
+import csvheaders = ["Student Name", "Marks"]student_list = [["Student1","50"], ["Student2","30"], ["Student3","90"],                ["Student4","60"]]with open("student_list.csv", "w") as stud:    student = csv.writer(stud)    student.writerow(headers)    student.writerows(student_list)
